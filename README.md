@@ -20,7 +20,7 @@ Then with the help of the ready mlp impelemnattion, I trained data. Got accuracy
 Then in the main function after grabbing the roi of the hand I can call model.predict, but before need to load the ready model into my file.
 Then we can predict the letters!
 
-function fancyAlert(arg) {
+    function fancyAlert(arg) {
       if(arg) {
         $.facebox({div:'#foo'})
       }
